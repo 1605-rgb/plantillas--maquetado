@@ -141,23 +141,92 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 95px;
+    padding: 60px;
   }
 
 
 .tarjeta{
-    width: 200px;
-    height: 200px;
+    width: 255px; 
+    height: 255px; 
+    display: flex;
+    flex-direction: column;
+    gap: 17px; 
 }
-  .tarjeta-roja{
-    background-color: #fa9a7a;
+  .imagen-roja{
+    background-color: #ff9978;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 255px; 
+    height: 255px; 
   }
-  .tarjeta-celeste{
-    background-color: #8ed2d8;
+  
+
+.titulo-rojo{
+   background-color: #ed6d47; 
+   height: 30px;
+   width: 160px;
+   align-self: center;
+}
+.linea-blanca-tarjeta-roja{
+   width: 160px;
+   height: 8px;
+   background-color: #ffffff;
+   align-self: center;
+}
+
+.linea-blanca-corta-tarjeta-roja{
+   width: 80px;
+   height: 8px;
+   background-color: #ffffff;
+   align-self: flex-start;
+   margin-left: 27px;
+
+}
+  .imagen-celeste{
+    background-color: #abe0e5;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 255px; 
+    height: 255px; 
   }
-  .tarjeta-naranja{
-    background-color: #ffd166;
+
+
+  .imagen-amarilla{
+    background-color: #ffc86d;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 255px; 
+    height: 255px; 
   }
+
+  .linea-oscura {
+  width: 100%; 
+  height: 10px;             
+  background-color: #656a73; 
+}
+
+.linea-gris {
+  width: 100%;           
+  height: 10px;   
+  background-color: #cccbca; 
+}
+
+.linea-gris-corta {
+  width: 55%;     
+  height: 10px;  
+  background-color: #cccbca; 
+}
+
 
 
 
